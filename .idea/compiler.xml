@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JNDI-demo" />
+        <module name="SPI-demo" />
+        <module name="springboot_shiro_login" />
+        <module name="springboot_swagger2" />
+        <module name="tomcat-simulation-chapter1" />
+        <module name="tomcat-simulation-chapter1 (1)" />
+        <module name="tomcat-simulation-chapter2" />
+        <module name="tomcat-xmlparse" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tomcat-simulation-chapter1" target="1.5" />
+      <module name="tomcat-simulation-chapter1 (1)" target="1.5" />
+      <module name="tomcat-simulation-chapter2" target="1.5" />
+      <module name="tomcat-study" target="1.8" />
+      <module name="tomcat-xmlparse" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
