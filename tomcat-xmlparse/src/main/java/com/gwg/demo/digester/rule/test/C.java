@@ -1,4 +1,6 @@
 package com.gwg.demo.digester.rule.test;
 
-public class C {
+import java.io.Serializable;
+
+public class C implements Serializable {
 }

@@ -1,9 +1,9 @@
 package com.gwg.demo.digester.rule.test;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.apache.commons.digester3.Digester;
 import org.apache.commons.digester3.ObjectCreateRule;
-import org.apache.commons.digester3.Rule;
 import org.apache.commons.digester3.SetNextRule;
 import org.xml.sax.InputSource;
 
@@ -11,7 +11,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class DigesterTest {
+/**
+ * 第二种写法 与第一种写法等效
+ */
+public class DigesterV2Test {
 
     private A a;
 
@@ -36,7 +39,7 @@ public class DigesterTest {
         Digester digester = new Digester();
         digester.push(this);
 
-        ObjectCreateRule ruleA1 = new ObjectCreateRule("a", A.class);
+     /*   ObjectCreateRule ruleA1 = new ObjectCreateRule("a", A.class);
         SetNextRule ruleA2= new SetNextRule("setA",A.class);
         ruleA2.setFireOnBegin(true);
         ObjectCreateRule ruleB1 = new ObjectCreateRule("a/b", B.class);
@@ -52,7 +55,15 @@ public class DigesterTest {
         digester.addRule("a/b", ruleB1);
         digester.addRule("a/b", ruleB2);
         digester.addRule("a/b/c", ruleC1);
-        digester.addRule("a/b/c", ruleC2);
+        digester.addRule("a/b/c", ruleC2);*/
+        //如果className值为空，则使用A.class.getName()
+        digester.addObjectCreate("a", A.class.getName(), "className");
+        digester.addSetNext("a", "setA", A.class.getName());
+        digester.addObjectCreate("a/b", B.class.getName(), "className");
+        digester.addSetNext("a/b", "addB", B.class.getName());
+        digester.addObjectCreate("a/b/c", C.class.getName(), "className");
+        digester.addSetNext("a/b/c", "addC", C.class.getName());//从object stack上取出最顶上的对象,即b,然后调用对象b的addC方法
+
 
         digester.parse(inputSource);
 
@@ -61,8 +72,10 @@ public class DigesterTest {
     }
 
     public static void main(String[] args) throws Exception{
-        DigesterTest digester = new DigesterTest();
+        DigesterV2Test digester = new DigesterV2Test();
         digester.digester();
         System.out.println(JSON.toJSONString(digester.getA()));
+        System.out.println( JSON.toJSONString(digester.getA(), SerializerFeature.WriteNullStringAsEmpty, SerializerFeature.WriteNullStringAsEmpty));
+
     }
 }
