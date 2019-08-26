@@ -1,0 +1,11 @@
+<a> -- Matches pattern "a"
+    <b name="gaoweigang"> -- Matches pattern "a/b"
+        <c/> -- Matches pattern "a/b/c"
+        <c/> -- Matches pattern "a/b/c"
+    </b>
+    <b> -- Matches pattern "a/b"
+        <c/> -- Matches pattern "a/b/c"
+        <c/> -- Matches pattern "a/b/c"
+        <c/> -- Matches pattern "a/b/c"
+    </b>
+</a>
