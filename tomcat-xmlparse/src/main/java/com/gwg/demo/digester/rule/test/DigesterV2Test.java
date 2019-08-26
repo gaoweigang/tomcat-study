@@ -2,9 +2,7 @@ package com.gwg.demo.digester.rule.test;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import org.apache.commons.digester3.Digester;
-import org.apache.commons.digester3.ObjectCreateRule;
-import org.apache.commons.digester3.SetNextRule;
+import org.apache.commons.digester.Digester;
 import org.xml.sax.InputSource;
 
 import java.io.File;
@@ -37,7 +35,7 @@ public class DigesterV2Test {
         inputSource.setByteStream(inputStream);
 
         Digester digester = new Digester();
-        digester.push(this);
+        digester.push(this);//设置object stack栈顶对象
 
      /*   ObjectCreateRule ruleA1 = new ObjectCreateRule("a", A.class);
         SetNextRule ruleA2= new SetNextRule("setA",A.class);
@@ -58,7 +56,7 @@ public class DigesterV2Test {
         digester.addRule("a/b/c", ruleC2);*/
         //如果className值为空，则使用A.class.getName()
         digester.addObjectCreate("a", A.class.getName(), "className");
-        digester.addSetNext("a", "setA", A.class.getName());
+        digester.addSetNext("a", "setA", A.class.getName());//从object stack上取出最顶上的对象，即当前对象，然后调用该对象的setA方法
         digester.addObjectCreate("a/b", B.class.getName(), "className");
         digester.addSetNext("a/b", "addB", B.class.getName());
         digester.addObjectCreate("a/b/c", C.class.getName(), "className");

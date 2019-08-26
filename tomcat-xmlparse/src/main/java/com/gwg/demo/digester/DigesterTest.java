@@ -1,6 +1,6 @@
 package com.gwg.demo.digester;
 
-import org.apache.commons.digester3.Digester;
+import org.apache.commons.digester.Digester;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 

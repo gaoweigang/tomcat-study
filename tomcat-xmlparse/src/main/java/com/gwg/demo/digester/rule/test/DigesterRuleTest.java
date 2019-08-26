@@ -1,17 +1,16 @@
 package com.gwg.demo.digester.rule.test;
 
 import com.alibaba.fastjson.JSON;
-import org.apache.commons.digester3.Digester;
-import org.apache.commons.digester3.ObjectCreateRule;
-import org.apache.commons.digester3.Rule;
-import org.apache.commons.digester3.SetNextRule;
+import org.apache.commons.digester.Digester;
+import org.apache.commons.digester.ObjectCreateRule;
+import org.apache.commons.digester.SetNextRule;
 import org.xml.sax.InputSource;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class DigesterTest {
+public class DigesterRuleTest {
 
     private A a;
 
@@ -37,17 +36,17 @@ public class DigesterTest {
         digester.push(this);
 
         ObjectCreateRule ruleA1 = new ObjectCreateRule("a", A.class);
-        SetNextRule ruleA2= new SetNextRule("setA",A.class);
-        ruleA2.setFireOnBegin(true);
+        SetNextRule ruleA2= new SetNextRule("setA","com.gwg.demo.digester.rule.test.A");
+        //ruleA2.setFireOnBegin(true);//digetster3中需要配置
         ObjectCreateRule ruleB1 = new ObjectCreateRule("a/b", B.class);
-        SetNextRule ruleB2= new SetNextRule("addB", B.class);//调用A.addB设置a对象中bList的值
-        ruleB2.setFireOnBegin(true);
+        SetNextRule ruleB2= new SetNextRule("addB", "com.gwg.demo.digester.rule.test.B");//调用A.addB设置a对象中bList的值
+        //ruleB2.setFireOnBegin(true); //digester3中需要配置
         ObjectCreateRule ruleC1 = new ObjectCreateRule("a/b/c", C.class);
-        SetNextRule ruleC2= new SetNextRule("addC", C.class);
-        ruleC2.setFireOnBegin(true); //必须，否则模式匹配了，也不会执行begin方法
+        SetNextRule ruleC2= new SetNextRule("addC", "com.gwg.demo.digester.rule.test.C");
+        //ruleC2.setFireOnBegin(true); //digester3中必须，否则模式匹配了，也不会执行begin方法
 
 
-        digester.addRule("a", ruleA1);
+        digester.addRule("a", ruleA1);//按设置的顺序匹配调用
         digester.addRule("a", ruleA2);
         digester.addRule("a/b", ruleB1);
         digester.addRule("a/b", ruleB2);
@@ -61,7 +60,7 @@ public class DigesterTest {
     }
 
     public static void main(String[] args) throws Exception{
-        DigesterTest digester = new DigesterTest();
+        DigesterRuleTest digester = new DigesterRuleTest();
         digester.digester();
         System.out.println(JSON.toJSONString(digester.getA()));
     }

@@ -11,4 +11,12 @@ public class B implements Serializable {
     public void addC(C c){
         cList.add(c);
     }
+
+    public List<C> getcList() {
+        return cList;
+    }
+
+    public void setcList(List<C> cList) {
+        this.cList = cList;
+    }
 }
