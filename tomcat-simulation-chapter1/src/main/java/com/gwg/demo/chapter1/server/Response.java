@@ -29,8 +29,11 @@ public class Response {
             File file = new File(HttpServer.WEB_ROOT+request.getUri());
             if(file.exists()){
                 //响应头必须，否则浏览器无法正常显示
-                String successMessage = "HTTP/1.1 200 OK\n"+
+                String successMessage = "HTTP/1.1 200\n"+
+                        "Content-Type: text/html;charset=UTF-8\n"+
                         "\r\n";
+
+                //响应实体正文
                 output.write(successMessage.getBytes());
                 fis = new FileInputStream(file);
                 int ch = fis.read(bytes, 0 , BUFFER_SIZE);
@@ -40,10 +43,12 @@ public class Response {
                 }
             }else {
                 //file not found
+                //响应头
                 String errorMessage = "HTTP/1.1 404 File Not Found\n" +
                         "Content-Type: text/html \r\n" +
                         "Content-Length: 23 \r\n" +
                         "\r\n" +
+                        //响应实体正文
                         "<h1>File Not Found</h1>";
                 output.write(errorMessage.getBytes());
             }
