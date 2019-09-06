@@ -1,7 +1,0 @@
-com\gwg\demo\chapter2\server\Request.class
-PrimitiveServlet.class
-com\gwg\demo\chapter2\server\ServletProcessor1.class
-com\gwg\demo\chapter2\server\Constants.class
-com\gwg\demo\chapter2\server\HttpServer1.class
-com\gwg\demo\chapter2\server\Response.class
-com\gwg\demo\chapter2\server\StaticResourceProcessor.class

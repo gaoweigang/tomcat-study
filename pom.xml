@@ -6,9 +6,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <modules>
     <module>tomcat-digester2-xmlparse</module>
+    <module>tomcat-JMX-parse</module>
     <module>tomcat-simulation-chapter1</module>
     <module>tomcat-simulation-chapter2</module>
     <module>tomcat-simulation-chapter3</module>
+    <module>tomcat-simulation-chapter4</module>
   </modules>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>

@@ -6,7 +6,7 @@ import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class HttpConnector implements Runnable{
+public class HttpConnector implements  Runnable{
     boolean stopped;
     private String scheme = "http";
     private HttpProcessor httpProcessor;

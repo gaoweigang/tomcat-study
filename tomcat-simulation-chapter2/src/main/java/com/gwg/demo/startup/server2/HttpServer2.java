@@ -10,12 +10,12 @@ import java.net.Socket;
 public class HttpServer2 {
     private boolean shutdown = false;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         HttpServer2 httpServer = new HttpServer2();
         httpServer.await();
 
     }
-    public void await(){
+    public void await() throws IOException {
         InputStream inputStream = null;
         OutputStream outputStream = null;
         ServerSocket serverSocket = null;
@@ -28,8 +28,9 @@ public class HttpServer2 {
         }
 
         while(!shutdown){
+            Socket socket = null;
             try {
-                Socket socket = serverSocket.accept();//监听端口
+                socket = serverSocket.accept();//监听端口
                 inputStream = socket.getInputStream();
                 outputStream = socket.getOutputStream();
             } catch (IOException e) {
@@ -52,6 +53,8 @@ public class HttpServer2 {
                 processor.process(request, response);
 
             }
+            socket.close();
+
         }
 
     }

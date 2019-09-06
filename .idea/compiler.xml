@@ -11,20 +11,26 @@
         <module name="springboot_shiro_login" />
         <module name="springboot_swagger2" />
         <module name="tomcat-digester2-xmlparse" />
+        <module name="tomcat-JMX-parse" />
         <module name="tomcat-simulation-chapter1" />
         <module name="tomcat-simulation-chapter1 (1)" />
         <module name="tomcat-simulation-chapter2" />
         <module name="tomcat-simulation-chapter3" />
+        <module name="tomcat-simulation-chapter3 (1)" />
+        <module name="tomcat-simulation-chapter4" />
         <module name="tomcat-xmlparse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tomcat-digester2-xmlparse" target="1.8" />
       <module name="tomcat-digester3-xmlparse" target="1.8" />
+      <module name="tomcat-JMX-parse" target="1.8" />
       <module name="tomcat-simulation-chapter1" target="1.8" />
       <module name="tomcat-simulation-chapter1 (1)" target="1.5" />
       <module name="tomcat-simulation-chapter2" target="1.8" />
       <module name="tomcat-simulation-chapter3" target="1.8" />
+      <module name="tomcat-simulation-chapter3 (1)" target="1.8" />
+      <module name="tomcat-simulation-chapter4" target="1.8" />
       <module name="tomcat-study" target="1.8" />
       <module name="tomcat-xmlparse" target="1.8" />
     </bytecodeTargetLevel>

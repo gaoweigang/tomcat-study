@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/tomcat-JMX-parse/tomcat-JMX-parse.iml" filepath="$PROJECT_DIR$/tomcat-JMX-parse/tomcat-JMX-parse.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-digester2-xmlparse/tomcat-digester2-xmlparse.iml" filepath="$PROJECT_DIR$/tomcat-digester2-xmlparse/tomcat-digester2-xmlparse.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-simulation-chapter1/tomcat-simulation-chapter1.iml" filepath="$PROJECT_DIR$/tomcat-simulation-chapter1/tomcat-simulation-chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-simulation-chapter2/tomcat-simulation-chapter2.iml" filepath="$PROJECT_DIR$/tomcat-simulation-chapter2/tomcat-simulation-chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-simulation-chapter3/tomcat-simulation-chapter3.iml" filepath="$PROJECT_DIR$/tomcat-simulation-chapter3/tomcat-simulation-chapter3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-simulation-chapter4/tomcat-simulation-chapter4.iml" filepath="$PROJECT_DIR$/tomcat-simulation-chapter4/tomcat-simulation-chapter4.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-study.iml" filepath="$PROJECT_DIR$/tomcat-study.iml" />
     </modules>
   </component>
