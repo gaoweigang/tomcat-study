@@ -13,7 +13,7 @@ public class ModelAgent {
     //被托管的资源
     private String MANAGED_CLASS_NAME = "com.gwg.demo.model.mbean.test.Car";
 
-    //MBean服务器
+
     private MBeanServer mBeanServer = null;
 
     public ModelAgent(){
