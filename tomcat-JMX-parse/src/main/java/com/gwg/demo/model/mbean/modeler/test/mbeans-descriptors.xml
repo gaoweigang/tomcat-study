@@ -19,14 +19,25 @@
 
     <attribute name="Color"
                description="The car object"
-               type="java.lang.String"
-               writeable="true"/>
+               type="java.lang.String"/>
 
     <operation name="drive"
                description="drive method"
                impact="ACTION"
                returnType="void">
-           <parameter name="drive" description="the driver parameter" type="java.lang.String"/>
+    </operation>
+
+    <operation name="setColor"
+               description="set Color value"
+               impact="ACTION"
+               returnType="void">
+      <parameter name="setColor" description="the Color value" type="java.lang.String"/>
+    </operation>
+
+    <operation name="getColor"
+               description="get Color value"
+               impact="ACTION"
+               returnType="java.lang.String">
     </operation>
 
   </mbean>
