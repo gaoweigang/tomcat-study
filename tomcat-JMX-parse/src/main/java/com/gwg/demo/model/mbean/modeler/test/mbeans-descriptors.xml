@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mbeans-descriptors>
+
+  <!--
+  在开始和末尾的mbeans-descriptors标签内部是mbean元素，每个mbean标签表示一个模型MBean。mbean元素包含了一个分别用来表示属性，方法，构造函数和通知的元素。
+  下面几节会对此进行分别讨论，从而有助于你理解Tomcat的MBean描述符。
+  -->
+
+  <!--
+  1.mbean元素描述一个模型MBean,包含创建对应ModelMBeanInfo对象的信息。mbean元素的定义如下所示：
+
+  -->
+  <mbean name="myMBean"
+         className="javax.management.modelmbean.RequiredModelMBean"
+         description="The ModelMBean that manages our Car object"
+         domain="Catalina"
+         type="com.gwg.demo.model.mbean.modeler.test.Car">
+
+    <attribute name="Color"
+               description="The car object"
+               type="java.lang.String"
+               writeable="true"/>
+
+    <operation name="drive"
+               description="drive method"
+               impact="ACTION"
+               returnType="void">
+           <parameter name="drive" description="the driver parameter" type="java.lang.String"/>
+    </operation>
+
+  </mbean>
+
+</mbeans-descriptors>
