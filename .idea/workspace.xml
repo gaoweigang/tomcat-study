@@ -5,115 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/RequestStream.java" line="81" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0c731b-c248-4472-83cc-43781dc5dfdd" name="Default" comment="tomcat RuleSet study">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/Car.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/CarMBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/StandardAgent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/tomcat-JMX-parse.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/images/HTTP请求格式.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/images/http_headers_cookie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/ServletProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/StaticResourceProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/util/RequestUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/images/HTTP请求格式.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/images/http_headers_cookie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/ServletProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/StaticResourceProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/RequestStream.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/ResponseStream.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/ResponseWriter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpConnector.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpHeader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpRequestFacade.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpRequestLine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpResponse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpResponseFacade.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/LocalStrings.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/ParameterMap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/SocketInputStream.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/StringManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/util/RequestUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/startup/Bootstrap.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/src/test/java/com/gwg/demo/urlclassLoader/test/ClassLoaderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter4/tomcat-simulation-chapter4.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="5a0c731b-c248-4472-83cc-43781dc5dfdd" name="Default" comment="JMX">
+      <change beforePath="" afterPath="$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/model/mbean/test/study.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/Class.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/DigesterTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/Grade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/School.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/rule/test/A.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/rule/test/B.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/rule/test/C.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/rule/test/DigesterRuleTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/rule/test/DigesterV2Test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/ruleset/test/A.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/ruleset/test/B.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/ruleset/test/C.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/ruleset/test/DigesterRuleSetTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/classes/com/gwg/demo/digester/ruleset/test/TestRuleSet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-digester2-xmlparse/tomcat-digester2-xmlparse.iml" afterPath="$PROJECT_DIR$/tomcat-digester2-xmlparse/tomcat-digester2-xmlparse.iml" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/classes/com/gwg/demo/chapter1/client/HttpClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/classes/com/gwg/demo/chapter1/server/HttpServer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/classes/com/gwg/demo/chapter1/server/Request.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/classes/com/gwg/demo/chapter1/server/Response.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/src/main/java/com/gwg/demo/startup/server2/HttpServer2.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter2/src/main/java/com/gwg/demo/startup/server2/HttpServer2.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/PrimitiveServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/Constants.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/HttpServer1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/Request.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/Response.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/ServletProcessor1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server/StaticResourceProcessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/Constants.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/HttpServer2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/Request.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/RequestFacade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/Response.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/ResponseFacade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/ServletProcessor2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/classes/com/gwg/demo/chapter2/server2/StaticResourceProcessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter2/target/test-classes/com/gwg/demo/urlclassLoader/test/ClassLoaderTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/ServletProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/StaticResourceProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/RequestStream.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/RequestStream.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpConnector.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpConnector.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpProcessor.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpRequest.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpRequest.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpResponse.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/HttpResponse.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/ParameterMap.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/ParameterMap.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/SocketInputStream.java" afterPath="$PROJECT_DIR$/tomcat-simulation-chapter3/src/main/java/com/gwg/demo/connector/http/SocketInputStream.java" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/PrimitiveServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/Constants.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/HttpServer1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/Request.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/Response.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/ServletProcessor1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server/StaticResourceProcessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/Constants.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/HttpServer2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/Request.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/RequestFacade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/Response.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/ResponseFacade.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/ServletProcessor2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/classes/com/gwg/demo/chapter2/server2/StaticResourceProcessor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tomcat-simulation-chapter3/target/test-classes/com/gwg/demo/urlclassLoader/test/ClassLoaderTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tomcat-xmlparse/target/" />
@@ -146,8 +40,8 @@
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="306">
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#236#237#0" expanded="true" />
@@ -160,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StandardAgent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="study.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/model/mbean/test/study.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardAgent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/StandardAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="-164">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
@@ -200,16 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpHeader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat-simulation-chapter4/src/main/java/com/gwg/demo/connector/http/HttpHeader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -768,6 +662,15 @@
               <item name="tomcat-study" type="462c0819:PsiDirectoryNode" />
               <item name="tomcat-JMX-parse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tomcat-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tomcat-study" type="462c0819:PsiDirectoryNode" />
+              <item name="tomcat-JMX-parse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1237,7 +1140,7 @@
       <workItem from="1566367035005" duration="1817000" />
       <workItem from="1566373743098" duration="5619000" />
       <workItem from="1566389258309" duration="126045000" />
-      <workItem from="1567475518690" duration="60239000" />
+      <workItem from="1567475518690" duration="61619000" />
     </task>
     <task id="LOCAL-00001" summary="tomcat RuleSet study">
       <created>1566798453594</created>
@@ -1253,7 +1156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566798535167</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JMX">
+      <created>1567763950898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567763950898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1271,7 +1181,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212915000" />
+    <option name="totallyTimeSpent" value="214295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1295,7 +1205,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1433902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30444205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25460455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38244852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1328,7 +1238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tomcat RuleSet study" />
-    <option name="LAST_COMMIT_MESSAGE" value="tomcat RuleSet study" />
+    <MESSAGE value="JMX" />
+    <option name="LAST_COMMIT_MESSAGE" value="JMX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,80 +1302,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tomcat-simulation-chapter2/src/main/java/com/gwg/demo/startup/server2/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#1789#1790#0" expanded="false" />
-            <element signature="e#1816#1817#0" expanded="false" />
-            <element signature="e#1884#1885#0" expanded="false" />
-            <element signature="e#1911#1912#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
-            <element signature="e#1996#1997#0" expanded="false" />
-            <element signature="e#2154#2155#0" expanded="false" />
-            <element signature="e#2178#2179#0" expanded="false" />
-            <element signature="e#2234#2235#0" expanded="false" />
-            <element signature="e#2258#2259#0" expanded="false" />
-            <element signature="e#2310#2311#0" expanded="false" />
-            <element signature="e#2337#2338#0" expanded="false" />
-            <element signature="e#2505#2506#0" expanded="false" />
-            <element signature="e#2532#2533#0" expanded="false" />
-            <element signature="e#2600#2601#0" expanded="false" />
-            <element signature="e#2627#2628#0" expanded="false" />
-            <element signature="e#2693#2694#0" expanded="false" />
-            <element signature="e#2729#2730#0" expanded="false" />
-            <element signature="e#2797#2798#0" expanded="false" />
-            <element signature="e#2824#2825#0" expanded="false" />
-            <element signature="e#2873#2874#0" expanded="false" />
-            <element signature="e#2900#2901#0" expanded="false" />
-            <element signature="e#2947#2948#0" expanded="false" />
-            <element signature="e#2974#2975#0" expanded="false" />
-            <element signature="e#3025#3026#0" expanded="false" />
-            <element signature="e#3052#3053#0" expanded="false" />
-            <element signature="e#3100#3101#0" expanded="false" />
-            <element signature="e#3124#3125#0" expanded="false" />
-            <element signature="e#3276#3277#0" expanded="false" />
-            <element signature="e#3303#3304#0" expanded="false" />
-            <element signature="e#3354#3355#0" expanded="false" />
-            <element signature="e#3381#3382#0" expanded="false" />
-            <element signature="e#3567#3568#0" expanded="false" />
-            <element signature="e#3594#3595#0" expanded="false" />
-            <element signature="e#3655#3656#0" expanded="false" />
-            <element signature="e#3682#3683#0" expanded="false" />
-            <element signature="e#3729#3730#0" expanded="false" />
-            <element signature="e#3757#3758#0" expanded="false" />
-            <element signature="e#3834#3835#0" expanded="false" />
-            <element signature="e#3861#3862#0" expanded="false" />
-            <element signature="e#3918#3919#0" expanded="false" />
-            <element signature="e#3945#3946#0" expanded="false" />
-            <element signature="e#3993#3994#0" expanded="false" />
-            <element signature="e#4017#4018#0" expanded="false" />
-            <element signature="e#4067#4068#0" expanded="false" />
-            <element signature="e#4094#4095#0" expanded="false" />
-            <element signature="e#4144#4145#0" expanded="false" />
-            <element signature="e#4171#4172#0" expanded="false" />
-            <element signature="e#4218#4219#0" expanded="false" />
-            <element signature="e#4242#4243#0" expanded="false" />
-            <element signature="e#4305#4306#0" expanded="false" />
-            <element signature="e#4332#4333#0" expanded="false" />
-            <element signature="e#4667#4668#0" expanded="false" />
-            <element signature="e#4695#4696#0" expanded="false" />
-            <element signature="e#4750#4751#0" expanded="false" />
-            <element signature="e#4778#4779#0" expanded="false" />
-            <element signature="e#4837#4838#0" expanded="false" />
-            <element signature="e#4864#4865#0" expanded="false" />
-            <element signature="e#4927#4928#0" expanded="false" />
-            <element signature="e#4954#4955#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tomcat-simulation-chapter2/src/main/java/com/gwg/demo/startup/server2/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -2020,10 +1857,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/CarMBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/StandardAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="306">
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
@@ -2035,24 +1893,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/CarMBean.java">
+    <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/model/mbean/test/study.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-JMX-parse/src/main/java/com/gwg/demo/standard/mbean/test/StandardAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
